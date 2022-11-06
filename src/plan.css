@@ -19,3 +19,24 @@
     font-size: small;
 }
 
+@media screen and(max-width:767px) {
+    .plan{
+        display: flex;
+        border: 1px solid red;
+        border-radius: 5px;
+        background-color:  hsl(225, 100%, 98%) ;
+        height: 10%;
+        align-items: center;
+        padding: 10px 10px;
+        border: none;
+    
+    }
+    .btn1{
+        text-decoration: underline;
+        cursor: pointer;
+    }
+    .sub-plan{
+        font-size: xx-small;
+    }
+}
+

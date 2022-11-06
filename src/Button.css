@@ -1,19 +1,38 @@
-*{
+* {
     padding: 0;
     margin: 0;
 }
 
-button{
- padding: 10px 80px;
- border-radius: 10px;
- background-color: blue;
- color: white;
- border: none;
- box-shadow: 0px 5px 10px blue;
+button {
+    padding: 10px 80px;
+    border-radius: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    box-shadow: 0px 5px 10px blue;
 }
 
-a{  
+a {
     padding-left: 100px;
     text-decoration: none;
-    
+
+}
+
+@media screen and (max-width:767px) {
+
+    button {
+        padding: 5px 20px;
+        border-radius: 10px;
+        background-color: red;
+        color: black;
+        border: none;
+        box-shadow: 0px 5px 10px red;
+    }
+
+    a {
+        padding-left: 40px;
+        text-decoration: none;
+
+    }
+
 }

@@ -28,3 +28,30 @@ right: 40%;
 .img-hero{
     width: 100%;
 }
+
+@media screen and (max-width:767) {
+    .container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 10%;
+    border-radius: 20px;
+    overflow: hidden; 
+    margin: auto;
+    background-color: rgb(254, 254, 255);
+    position: absolute;
+    top: 45%;
+    right: 40%;
+    }
+
+    .content{
+        position: relative;
+    
+    
+    }
+
+    
+.img-hero{
+    width: 100%;
+}
+}

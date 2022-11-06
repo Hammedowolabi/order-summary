@@ -12,3 +12,23 @@
 .text{
     line-height: 1.5rem;
 }
+
+@media screen and (max-width:767px) {
+    
+.body{
+    text-align: center;
+    width: 70%;
+    font-size: small;
+    
+}
+.text{
+    line-height: 1rem;
+}
+h1{
+    color: red;
+}
+.text{
+    color: red;
+}
+}
+
