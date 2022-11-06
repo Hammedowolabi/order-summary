@@ -1,0 +1,21 @@
+.plan{
+    display: flex;
+    gap: 20px;
+    border: 1px solid red;
+    border-radius: 5px;
+    background-color:  hsl(225, 100%, 98%) ;
+    height: 20%;
+    align-items: center;
+    padding: 10px 10px;
+    border: none;
+
+}
+.btn1{
+    text-decoration: underline;
+    cursor: pointer;
+    padding-left: 40px;
+}
+.sub-plan{
+    font-size: small;
+}
+
